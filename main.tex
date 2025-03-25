@@ -1,0 +1,386 @@
+%-------------------------
+% Resume in Latex
+% Author : Vu Chi Cong
+% Based on template by Jake Gutierrez
+% Supported by ChatGPT
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\input{glyphtounicode}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-0pt}\scshape\raggedright\bfseries
+}{}{0em}{\uppercase}[\color{black}\titlerule \vspace{-2pt}]
+
+% Custom commands
+\newcommand{\resumeEntry}[3]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      #3 \vspace{4pt}
+    \end{tabular*}
+}
+\newcommand{\resumeProjectTitle}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1\textwidth}[t]{l @{\hskip 2pt} r}
+      \textbf{#1} & \small #2 \\
+    \end{tabular*}\vspace{2pt}
+}
+\newcommand{\resumeDesc}[1]{
+  {#1\\ \vspace{0px}}
+}
+\newcommand{\resumeItem}[1]{
+  \item{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeItemListTitle}[1]{%
+  \vspace{4pt} \textbf{#1} \vspace{-2pt}%
+}
+\newcommand{\resumeItemListStart}{\vspace{-4pt}\begin{itemize}[leftmargin=12px]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0pt, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Vu Chi Cong} \par \vspace{1pt}
+    \small +84 35 997 1065 $|$ \href{mailto:joevu.work@gmail.com}{\underline{joevu.work@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/jv98}{\underline{linkedin.com/in/jv98}} $|$
+    \href{https://congvc.com}{\underline{congvc.com}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\resumeDesc{5+ years of experience in building large-scale projects (combining both Backend and Frontend development) using Node.js ,React and Next.js. Skilled in optimizing backend processes, UI/UX and working with cross-functional teams and product development through diverse domains.}
+
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+\resumeEntry
+  {GK-Team (Remote)}{Feb 2023 - Dec 2024}
+  {Full-Stack Developer}
+  \resumeDesc{Collaborated with clients in Vietnam and the United States to deliver scalable web and mobile applications.}
+  \resumeDesc{Domains: Blockchain (ICO), Fitness.}
+  \resumeItemListStart
+    \resumeItem{Achieved 78+\% productivity in a fully remote environment, contributed to successful delivery of 5+ projects.}
+    \resumeItem{Built and optimized backend services using Node.js, PostgreSQL and MongoDB, while also contributing to .NET Core projects using Entity Framework.}
+    \resumeItem{Developed solidity-based purchase systems, successfully deploying 3+ projects.}
+    \resumeItem{Developed responsive, mobile-first landing pages from Figma designs, focusing on mobile-first design and aligning closely with client requirements.}
+    \resumeItem{Provided client support to ensure system reliability and timely issue resolution, quickly addressing concerns.}
+    \resumeItem{Developed mobile applications using Expo, authored technical docs, and implemented CI/CD on Azure, improving deployment efficiency and reliability.}
+  \resumeItemListEnd
+  \resumeDesc{Technical Stack: Node.js, .Net Core, MongoDB, React, Next.js, Solidity, Docker, Vercel.}
+\resumeSubHeadingListEnd
+\noindent\rule{\textwidth}{0.4pt}
+\resumeSubHeadingListStart
+\resumeEntry
+  {Bright Software Solution}{Jul 2019 - Feb 2023}
+  {Full-Stack Developer}
+  \resumeDesc{Collaborated with clients across Sweden, India, and Europe to deliver reliable web and mobile solutions.}
+  \resumeDesc{Domains: Education, Project Management.}
+  \resumeItemListStart
+    \resumeItem{Conducted code reviews, built foundations for 5+ projects, mentored interns during development, and participated in 10+ projects.}
+    \resumeItem{Designed and maintained a mobile app for teachers to manage students and classes, along with a custom CMS for employee and session management, with 15+ teachers actively using the apps.}
+    \resumeItem{Developed real-time web and mobile apps to enhance student-teacher interaction, which were also utilized for daily team meetings during the development phase.}
+    \resumeItem{Worked on .NET Core for various backend tasks and contributed to developing 3+ projects before transitioning to Node.js, where I expanded my backend development skills.}
+    \resumeItem{Partnered onsite with client companies for six months and contributed to 2 major app deployments.}
+  \resumeItemListEnd
+  \resumeDesc{Technical Stack: Node.js, .Net Core, MsSQL, React, React Native, Docker, AWS(EC2).}
+\resumeSubHeadingListEnd
+\noindent\rule{\textwidth}{0.4pt}
+\resumeSubHeadingListStart
+\resumeEntry
+  {Rabiloo Co., Ltd}{Mar 2018 - May 2019}
+  {Fresher Mobile Developer}
+  \resumeDesc{Collaborated with Japanese clients to deliver high-quality mobile solutions.}
+  \resumeDesc{Domains: Service Industry.}
+  \resumeItemListStart
+    \resumeItem{Developed a cleaner booking app featuring payment processing, real-time chat, and location-based services with map integration.}
+    \resumeItem{Worked closely with design and testing teams to ensure seamless functionality and an optimal user experience.}
+    \resumeItem{Gained backend experience by contributing to small backend tasks, supporting the backend development alongside the team.}
+  \resumeItemListEnd
+  \resumeDesc{Technical stack: React Native.}
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+\begin{tabularx}{\textwidth}{>{\bfseries}l @{\hskip 10pt} X}
+  Languages & TypeScript, JavaScript, .Net Core. \\
+  Frontend Development & React.js, React Native, Next.js, Tailwind CSS, Mobile-First, Responsive Web Design. \\
+  Backend Development & Node.js, Express.js, RabbitMQ, gRPC, Elasticsearch. \\
+  Databases & MongoDB, MySQL, Redis. \\
+  Tools \& Platnform & Docker, Heroku, Vercel, AWS(EC2). \\
+\end{tabularx}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeEntry
+  {ITPlus Academy}{Aug 2016 - Mar 2018}
+  {Software development course for website and mobile application development}
+\resumeItemListTitle{Languages:}
+\begin{tabularx}{\textwidth}{>{\bfseries}l @{\hskip 10pt} X}
+  Vietnamese & Native \\
+  English & Intermediate
+\end{tabularx}
+  
+\resumeSubHeadingListEnd
+
+%-----------GROWING PROJECTS-----------
+\section{Growing Project}
+\resumeDesc{A project I’m developing to showcase in my portfolio}
+\resumeSubHeadingListStart
+\resumeProjectTitle{The Shopi}{(Scalable e-commerce platform with microservices architecture)}
+\resumeDesc{An e-commerce platform built with a microservices architecture. It is designed to handle essential workflows such as user authentication, product management, cart operations, order processing, and real-time communication.}
+\resumeDesc{The project is powered entirely by Node.js, with a hybrid API Gateway that uses HTTP for client-facing requests and gRPC for service-to-service communication.}
+\resumeItemListTitle{Main Features:}
+\resumeItemListStart
+    \resumeItem{Microservices Architecture: Separate services for features communicating via gRPC and RabbitMQ. Containerized with Docker for deployment flexibility.}
+    \resumeItem{Authentication: Supports OAuth (GitHub SSO) and email-password authentication with JWT, Key-Token, Fingerprint, and RBAC for secure multi-device refresh tokens.}
+    \resumeItem{High performance Search: Utilizes Elasticsearch for fast object searching, syncing data whenever a new object is added/updated.}
+    \resumeItem{Real-time Communication: A Socket service handles connections for chat and presence status.}
+    \resumeItem{Asynchronous Event Handling: RabbitMQ for handling events like object create/updates, authentication requirements, and payment confirmations, etc.}
+\resumeItemListEnd
+\resumeItemListTitle{Technical Stack:}
+\resumeItemListStart
+    \resumeItem{Backend: Node.js, Express.js, TypeORM, Elasticsearch.}
+    \resumeItem{Frontend: Next.js, Shadcn.}
+    \resumeItem{Database: MongoDB, MySQL, Redis.}
+    \resumeItem{Messaging: RabbitMQ, gRPC.}
+    \resumeItem{Infrastructure: Docker, K8s.}
+\resumeItemListEnd
+\resumeItemListTitle{Objective:} Build a scalable e-commerce system with microservices architecture, as a way to gain experience with large projects due to limited time working on them in a job. Future enhancements will include GraphQL, a Recommendation System, Load Balancing, ELS Stack, CI/CD with Kubernetes and Jenkins, and a fully developed frontend.
+\par
+\noindent\textbf{Source:} \url{github.com/cngvc/theshopi}
+\resumeSubHeadingListEnd
+
+
+%-----------PARTICIPATED PROJECTS-----------
+\section{Participated Projects}
+\resumeSubHeadingListStart
+\resumeProjectTitle{Blockchain Project}{(ICO Token)}
+\resumeDesc{Built a platform to facilitate token pre-sales, integrating blockchain technology and third-party services for efficient and user-friendly digital asset management.}
+\resumeItemListTitle{Team Composition:} 2 (1 Developer and 1 Designer)
+\par
+\resumeItemListTitle{My Responsibility:}
+\resumeItemListStart
+    \resumeItem{Smart Contract Integration: Designed and implemented smart contracts for presale token purchases.}
+    \resumeItem{Full-Stack Development: Developed a landing page, client dashboard, and admin dashboard using React. Built a Node.js backend server to manage operations, supporting over 4,000 users.}
+    \resumeItem{Supported the pre-sale process, helping the platform raise over \$300,000 in funds.}
+\resumeItemListEnd
+\resumeItemListTitle{Achievements:}
+\resumeItemListStart
+    \resumeItem{Quickly adapted to blockchain's fast-paced environment, ensuring smart contracts were thoroughly tested before deployment.}
+    \resumeItem{Provided responsive customer support, assisting users with their needs.}
+\resumeItemListEnd
+\resumeItemListTitle{Technical Stack:} React, Node.js, Solidity.
+\resumeSubHeadingListEnd
+\noindent\rule{\textwidth}{0.4pt}
+\resumeSubHeadingListStart
+\resumeProjectTitle{Fitness Mobile Application}{(A personalized workout app)}
+\resumeDesc{A mobile app designed to deliver personalized workout courses tailored to specific muscle groups.}
+\resumeItemListTitle{Team Composition:} 4 (PM, Designer, Backend, and me (Frontend))
+\par
+\resumeItemListTitle{My Responsibility:}
+\resumeItemListStart
+    \resumeItem{Frontend Development: Developed the mobile UI to enhance user experience and engagement.}
+    \resumeItem{Backend Integration: Collaborated with the backend team to ensure seamless API integration.}
+    \resumeItem{Azure API Research: Researched Azure Portal APIs, authored detailed integration documents for the team, and implemented Azure Pipelines to reduce deployment time.}
+\resumeItemListEnd
+\resumeItemListTitle{Achievements:}
+\resumeItemListStart
+    \resumeItem{Gained experience in following a structured development process to ensure accuracy and efficiency.}
+    \resumeItem{Contributed to writing documentation and researching Azure APIs, improving backend processes.}
+    \resumeItem{Implemented Azure Pipelines, reducing deployment time and increasing workflow efficiency.}
+\resumeItemListEnd
+\resumeItemListTitle{Technical Stack:} React Native, Expo Go, Azure Portal, Azure Pipelines.
+\resumeSubHeadingListEnd
+\noindent\rule{\textwidth}{0.4pt}
+
+\resumeSubHeadingListStart
+\resumeProjectTitle{GrapeSEED Connect}{(Stream Learning Platform)}
+\resumeDesc{An online platform designed to enhance student-teacher interaction through real-time video streaming, improving the overall online learning experience.}
+\resumeItemListTitle{Team Composition:} 3 (React Native, 1 QA).
+\par
+\resumeItemListTitle{My Responsibility:}
+\resumeItemListStart
+    \resumeItem{Frontend Development: Led the frontend development using React Native and Vue, focusing on UI design and real-time video streaming capabilities.}
+    \resumeItem{Backend Contribution: Collaborated with client's backend team to contribute for BE real-time features.}
+\resumeItemListEnd
+\resumeItemListTitle{Achievements:}
+\resumeItemListStart
+    \resumeItem{Improved cross-company collaboration by working with different teams to streamline workflows.}
+    \resumeItem{Enhanced real-time video streaming experience for students and teachers using Agora SDK and Zoom SDK.}
+\resumeItemListEnd
+\resumeItemListTitle{Technical Stack:} Vue, React Native, Agora SDK, Zoom SDK, .NET Core.
+\resumeSubHeadingListEnd
+\noindent\rule{\textwidth}{0.4pt}
+
+\resumeSubHeadingListStart
+\resumeProjectTitle{Work Management}{(Projects Management)}
+\resumeDesc{Managed software projects, overseeing tasks, processes, and deliverables.}
+\resumeItemListTitle{Team Composition:} Size: 3+ (Backend, Frontend & Mobile, QA).
+\par
+\resumeItemListTitle{My Responsibility:}
+\resumeItemListStart
+    \resumeItem{Project Lifecycle Management: Coordinated team members through all phases of the project lifecycle, including planning, development, and deployment.}
+    \resumeItem{Frontend and Mobile Development: Contributed to frontend and mobile development, implementing key features and ensuring smooth UX.}
+    \resumeItem{Collaboration: Worked closely with backend developers and QA teams, providing support where necessary to maintain quality and meet deadlines.}
+\resumeItemListEnd
+\resumeItemListTitle{Achievements:}
+\resumeItemListStart
+    \resumeItem{Independently managed various aspects of development, gaining a broad understanding of the full software development process.}
+\resumeItemListEnd
+\resumeItemListTitle{Technical Stack:} React, React Native, Groovy.
+\resumeSubHeadingListEnd
+\noindent\rule{\textwidth}{0.4pt}
+
+\resumeSubHeadingListStart
+\resumeProjectTitle{Dance School}{(School Management)}
+\resumeDesc{A comprehensive school management system designed to efficiently manage classrooms, students, schedules, and includes reminder functionalities.}
+\resumeItemListTitle{Team Composition:} 4+ (QA, Full-Stack, Frontend, and Mobile).
+\par
+\resumeItemListTitle{My Responsibility:}
+\resumeItemListStart
+    \resumeItem{API Development: Implemented authentication and data management with Entity Framework.}
+    \resumeItem{Frontend Support: Assisted frontend developers as needed, helping with frontend-related tasks and resolving any issues.}
+\resumeItemListEnd
+\resumeItemListTitle{Achievements:}
+\resumeItemListStart
+    \resumeItem{Started as a frontend developer and transitioned into a full-stack developer, taking on key responsibilities and gaining valuable experience.}
+\resumeItemListEnd
+\resumeItemListTitle{Technical Stack:} React, React Native, .NET Core.
+\resumeSubHeadingListEnd
+\noindent\rule{\textwidth}{0.4pt}
+
+\resumeSubHeadingListStart
+\resumeProjectTitle{Miles At Sea}{(Travel Tracking)}
+\resumeDesc{An app for tracking travel distance and earning rewards through quest completion.}
+\resumeItemListTitle{Team Composition:} 2 (both are Full-Stack).
+\par
+\resumeItemListTitle{My Responsibility:}
+\resumeItemListStart
+    \resumeItem{Google Maps Integration: Integrated the Google Maps API to enable distance tracking functionality within the application.}
+    \resumeItem{Mobile UI Development: Developed and implemented the mobile UI to ensure a functional user experience.}
+\resumeItemListEnd
+\resumeItemListTitle{Achievements:}
+\resumeItemListStart
+    \resumeItem{Successfully integrated the distance tracking API and developed the mobile UI.}
+    \resumeItem{Learned the importance of testing and using mocks to ensure reliability.}
+\resumeItemListEnd
+\resumeItemListTitle{Technical Stack:} React Native, Google Maps API.
+\resumeSubHeadingListEnd
+\noindent\rule{\textwidth}{0.4pt}
+
+\resumeSubHeadingListStart
+\resumeProjectTitle{Osouji}{(Cleaner Booking)}
+\resumeDesc{A job marketplace focused on services related to house cleaning and hotels, integrating payment systems and providing directions for seamless transactions.}
+\resumeItemListTitle{Team Composition:} 7+ (PM, Designer, 2 Backend, 2 Frontend, QA).
+\par
+\resumeItemListTitle{My Responsibility:}
+\resumeItemListStart
+    \resumeItem{Mobile Development: Built the job marketplace UI based on Figma designs.}
+    \resumeItem{Backend Integration: Assisted in backend tasks by collaborating with backend developers to ensure seamless integration between mobile UI and core features.}
+\resumeItemListEnd
+\resumeItemListTitle{Achievements:}
+\resumeItemListStart
+    \resumeItem{Successfully implemented the mobile UI based on Figma designs, ensuring a smooth user experience.}
+    \resumeItem{Gained valuable knowledge as a mobile developer, learning best practices from my mentor.}
+\resumeItemListEnd
+\resumeItemListTitle{Technical Stack:} React Native.
+\resumeSubHeadingListEnd
+\noindent\rule{\textwidth}{0.4pt}
+
+\resumeSubHeadingListStart
+\resumeProjectTitle{Vio Studio}{(Event Information Platform)}
+\resumeDesc{A platform aimed at providing students with information about current and upcoming events in their vicinity.}
+\resumeItemListTitle{Team Composition:} 6 (PM, Designer, 2 Backend, 2 Frontend).
+\par
+\resumeItemListTitle{My Responsibility:}
+\resumeItemListStart
+    \resumeItem{Frontend Development: Created the frontend web application following Figma designs, ensuring a functional and responsive user experience.}
+    \resumeItem{Frontend Management: Managed frontend tasks, including task allocation and progress tracking.}
+\resumeItemListEnd
+\resumeItemListTitle{Achievements:}
+\resumeItemListStart
+    \resumeItem{Collaborated closely with the client to define the solution and align development goals.}
+    \resumeItem{Managed frontend development and coordinated with freelancers to ensure timely project completion.}
+\resumeItemListEnd
+\resumeItemListTitle{Technical Stack:} React, Django.
+\resumeSubHeadingListEnd
+
+%-----------SIDE PROJECTS-----------
+
+\section{Side Projects}
+\resumeSubHeadingListStart
+\resumeProjectTitle{Personal Portfolio Website}{}
+\resumeDesc{A responsive portfolio website built with React and Tailwind CSS, showcasing my projects and skills. Designed to deliver a smooth user experience on both desktop and mobile devices.}
+\resumeItemListTitle{Achievements:}
+\resumeItemListStart
+    \resumeItem{Achieved a Performance score of over 90 on Google PageSpeed Insights.}
+\resumeItemListEnd
+\resumeItemListTitle{Main Features:}
+\resumeItemListStart
+    \resumeItem{Responsive Design: Optimized for all screen sizes with Tailwind CSS, providing an engaging experience on both desktop and mobile.}
+    \resumeItem{Deployed with Vercel: Hosted on Vercel with automatic updates on every Git commit.}
+\resumeItemListEnd
+\resumeItemListTitle{Objective:} Created a responsive and visually appealing website to showcase my projects, skills, and experience.
+\par
+\resumeItemListTitle{Technical Stack:} React, Tailwind CSS, Shadcn
+\resumeSubHeadingListEnd
+\noindent\textbf{Source:} \url{github.com/cngvc/joes-portfolio} | \url{congvc.com}
+\noindent\rule{\textwidth}{0.4pt}
+
+\resumeSubHeadingListStart
+\resumeProjectTitle{MEME Network}{(Presale Token on Sepolia Testnet)}
+\resumeDesc{A decentralized application (DApp) that combines a React frontend with a smart contract using Solidity, allowing users to interact with the Ethereum blockchain.}
+\resumeItemListTitle{Main Features:}
+\resumeItemListStart
+    \resumeItem{Smart Contract Development: Created using Hardhat, enabling deployment and testing on the Ethereum network.}
+    \resumeItem{Blockchain Interaction: Users can interact with smart contract functions directly from the React frontend.}
+    \resumeItem{Wallet Connection: Integrates Rainbow to connect MetaMask for user authentication and transaction handling.}
+    \resumeItem{Testnet Support: Allows users to make presale transactions through the Sepolia testnet.}
+    \resumeItem{Objective: Developed a full-stack web3 application integrating React with smart contracts using Hardhat and wallet connectivity.}
+\resumeItemListEnd
+\resumeItemListTitle{Objective:} Developed a full-stack web3 application integrating React with smart contracts using Hardhat and wallet connectivity.
+\par
+\resumeItemListTitle{Technical Stack:} React, Tailwind CSS, Solidity, Hardhat, Rainbow, Ethers.js.
+\resumeSubHeadingListEnd
+\noindent\textbf{Source:} \url{github.com/cngvc/simple-token-presale} | \url{meme-network.congvc.com}
+
+%-------------------------------------------
+\end{document}
